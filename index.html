@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+      <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"/>  -->
+    <title>Oladolz Web Developer</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel="stylesheet" >
+   <link rel="icon" href="<i class='fa fa-html' ></i>"> 
+</head>
+<body>
+    <div class="nav">
+        <h2> <i class="fa fa-spinner fa-spin"> </i> Oladolz Web Developer</h2>
+        <nav >
+            <ul id="menus">
+                <li><a href="#home"><i class="fa fa-home"></i> Home</a></li>
+                <li><a href="#about"><i class="fa fa-user"></i> About</a></li>
+                <li><a href="#contact"><i class="fa fa-phone"></i> Contact</a></li>     
+            </ul>
+        </nav>
+        <span class="bx bx-menu"  id="bars">NAV</span>
+        </div>
+    
+    <div class="section" id="home">
+        <span>Welcome to Oladolz Website Developer</span>
+        <h3>Turning Your Ideas into Powerful Websites</h3>
+        <p>Hello and welcome! I'm Oladolz, a passionate website developer who helps individuals and businesses build clean, modern, and responsive websites that make a lasting impression.</p>
+    </div>
+    
+    <div class="offer">
+        <h2>What I Offer:</h2>
+      <p>  Front-End Development (HTML, CSS, JavaScript)</p>
+<p> Website Redesign & Speed Optimization</p>
+<p> Responsive & Mobile-Friendly Layouts</p>
+<p>WordPress & CMS Services</p>
+
+    </div>
+    
+    <div class="read">
+        <span class="reads">Ready to bring your vision online? Let’s build together.</span>
+        <a href="">Contact Us</a>
+        <a href="">View My Project</a>
+        
+        </div>
+   <div class="about" id="about">
+       <h2><i class="fa fa-user"> </i> About Oladolz</h2>
+       <div class="img">
+           <img src="img/admin.jpg" alt="">
+           <span><p>
+I’m Oladolz — a self-taught and creative website developer based in [Osogbo, Osun state, Nigeria].</p>
+     <p> I specialize in building sleek, functional, and user-focused websites. I love turning challenges into simple and effective designs.</p>
+ </span>
+ 
+     </div>
+   </div>
+   <div class="offer">
+        <h2> Why Choose Me?:</h2>
+      <p>Clean code and modern design</p>
+<p>Fast delivery and great communication</p>
+<p>Affordable for startups and small businesses</p>
+
+    </div>
+  <div class="talk" id="contact">  
+   <h2>Let’s Talk!</h2>
+<p><i class="fa fa-envelope"> </i> <b>Email:</b> <a href="mailto:oladolzwebdev@example.com">oladolzwebdev@example.com</a></p>  
+<p><i class="fa fa-phone"> </i> <b>WhatsApp: </b><a href="wa.me/+2349157887991">+234 915 7887 97</a> </p>
+<p><i class="fa fa-message"> </i> <b>Discord:</b> <a href="oladolz#1234">@oladolz#1234</a></p>
+<p><a href="" class="resume">Download Resume</a></p>
+</div>
+
+<div class="project">
+    
+    <h2>My Recent Projects</h2>
+    <p>Explore some projects I’ve worked on at Oladolz Website Developer:</p>
+    <div class="projects">
+        <img src="img/project 1.png"  alt="">
+       <h2> 1. App Downloader Site</h2>
+<h5>A showcase of my skills and projects.</h5>
+<p>- Tech: HTML, CSS, JS</p>
+<p>- Features: Dark mode, mobile responsive</p>
+<a href="#">Visit site</a>
+
+    </div>
+    
+      <div class="projects">
+        <img src="img/project 2.png"  alt="">
+       <h2> 2. School website </h2>
+<h5>A showcase of my skills and projects.</h5>
+<p>- Tech: HTML, CSS, JS</p>
+<p>- Features: Menu section, contact form</p>
+<a href="#">Visit site</a>
+
+    </div>
+    
+    <div class="projects">
+        <img src="img/project 3.png"  alt="">
+       <h2> 3. Game downloading website </h2>
+<h5>A showcase of my skills and projects.</h5>
+<p>- Tech: HTML, CSS, JS</p>
+<p>- Features: Menu section, contact form</p>
+<a href="#">Visit site</a>
+
+    </div>
+
+    <h2>📌 More exciting projects are on the way — stay tuned!</h2>
+</div>
+
+
+ 
+<div class="footer">
+    <a href="">Oladolz Web Developer</a><br>
+    <hr>
+    <div class="mail"><p><i class="fa fa-envelope"></i> <b>Email:</b> <a href="mailto:oladolzwebdev@example.com">oladolzwebdev@example.com</a></p>  
+<p><i class="fa fa-phone"></i> <b>WhatsApp: </b><a href="wa.me/+2349157887991">+234 915 7887 97</a> </p>
+<p> <i class="fa fa-message"> </i> <b>Discord:</b> <a href="oladolz#1234">@oladolz#1234</a></p>
+</div>
+<span class="copy">&copy copyright <a href="#">Oladolz Web Developer</a> </span>
+</div>
+
+<script>
+    
+     let menu=document.getElementById('menus');
+    
+let bar =document.getElementById('bars');
+
+menu.style.maxHeight='0px';
+
+bar.addEventListener('click', function () {
+    if (menu.style.maxHeight=='0px'){
+        menu.style.maxHeight='400px';
+        menu.style.transition='0.7s';
+    }else {
+        menu.style.maxHeight='0px';
+    }
+}); 
+  
+</script>
+</body>
+</html>
